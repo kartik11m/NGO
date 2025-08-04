@@ -80,4 +80,12 @@ body {
             @apply flex-center lg:gap-12 gap-7;
         }
     }
+
+    #hero {
+        @apply relative z-10  w-full border border-transparent;
+
+        h1 {
+            @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
+        }
+    }
 }
