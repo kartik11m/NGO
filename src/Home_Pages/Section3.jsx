@@ -3,7 +3,7 @@ import React from 'react'
 const Section3 = () => {
   return (
     <div className='container mx-auto px-4 mt-8 bg-[#fcedc6]'>
-        <div className="flex items-center justify-between max-sm:flex-col">
+        <div className="flex items-center justify-between max-sm:flex-col pb-5">
             <div className='space-y-10 ml-8 mr-12 w-[60%] mt-8'>
                 <p className='max-sm:text-sm font-medium'>WHAT WE DO</p>
                 <h2 className='font-bold max-sm:text-xl max-md:text-2xl max-lg:text-3xl lg:text-4xl'>Some services we provide for our children</h2>
@@ -17,7 +17,7 @@ const Section3 = () => {
                                 molestiae, quos voluptas unde facilis sequi accusantium, veniam inventore suscipit iusto temporibus ab aliquid!</p>
                         </div>
                         <div className='text-justify'>
-                            <h2 className='font-bold text-xl md:text-2xl mb-2 '><i className="ri-hand-heart-fill"></i>  Health benefits</h2>
+                            <h2 className='font-bold text-xl md:text-2xl mb-2 '><i className="ri-hand-heart-fill"></i> Health benefits</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas delectus voluptatum iste rem explicabo neque a 
                                 molestiae, quos voluptas unde facilis sequi accusantium, veniam inventore suscipit iusto temporibus ab aliquid!</p>
                         </div>
