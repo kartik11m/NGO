@@ -28,7 +28,7 @@ const Footer = () => {
                             <p className='font-medium text-md border-b-1'>Next Events </p>
                             <h2 className='font-medium max-sm:text-xl max-md:text-2xl md:text-3xl md:font-normal'>A day with our wonderfull <br /> children </h2>
                         </div>
-                        <div className='md:ml-15'>
+                        <div className='md:ml-15 pr-5'>
                             <button className='bg-white rounded-[50%] px-2 py-1'><i class="ri-arrow-right-long-line text-2xl text-gray-500"></i></button>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const Footer = () => {
                             <p className='font-medium text-md border-b-1'>Next Events </p>
                             <h2 className='font-medium max-sm:text-xl max-md:text-2xl md:text-3xl md:font-normal'>Seminar: Caring for children<br />with autism  </h2>
                         </div>
-                        <div className='md:ml-15'>
+                        <div className='md:ml-15 pr-5'>
                             <button className='bg-white rounded-[50%] px-2 py-1'><i class="ri-arrow-right-long-line text-2xl text-gray-500"></i></button>
                         </div>
                     </div>
