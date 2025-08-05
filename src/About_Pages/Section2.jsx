@@ -4,7 +4,7 @@ const Section2 = () => {
   return (
     <div className='bg-[#fcedc6] mt-40 relative'>
         <div className='absolute max-md:-top-30 -top-35 left-45 max-xl:left-0 xl:w-400 xl:h-80'><img src="/images/ab1.png" alt="" className=' xl:w-300 xl:h-75'/></div>
-        <div className='container mx-auto px-4 pb-10 max-sm:pt-20 sm:pt-40 md:pt-60 lg:pt-90 xl:pt-55 flex gap-10 xl:ml-36'>
+        <div className='container mx-auto px-4 pb-10 max-sm:pt-20 sm:pt-40 md:pt-60 lg:pt-90 xl:pt-55 flex gap-10 xl:ml-36 max-sm:flex-col'>
             <div className='space-y-3 text-justify xl:w-[40%]'>
                 <p className='max-sm:text-sm font-medium'>OUR MISSION</p>
                 <h3 className='font-bold text-xl md:text-2xl'>We make sure to provide inclusive care <br /> for children with special needs</h3>
