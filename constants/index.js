@@ -6,19 +6,19 @@ const navLinks = [
 	title: "Home",
  },
  {
-	id: "about",
+	id: "/about",
 	title: "About Us",
  },
  {
-	id: "work",
+	id: "/work",
 	title: "What We Do",
  },
  {
-    id: "media",
+    id: "/media",
     title:"Media"
  },
  {
-	id: "contact",
+	id: "/contact",
 	title: "Contact",
  },
 ];
