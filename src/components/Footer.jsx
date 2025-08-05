@@ -10,7 +10,7 @@ const Footer = () => {
                 <h2 className='font-bold max-sm:text-xl max-md:text-2xl max-lg:text-3xl lg:text-4xl text-white text-center'>You can contribute to provide a place <br /> 
                 for children with special needs!</h2>
                 <div className='flex gap-8 justify-center'>
-                    <button className='bg-[#f2c94c] px-4 py-2 rounded-md'>Join as a volunteer</button>
+                    <Link to="/volunteer" className='bg-[#f2c94c] px-4 py-2 rounded-md'>Join as a volunteer</Link>
                     <button className='bg-white px-2 py-2 rounded-md'>Donate</button>
                 </div>
             </div>
