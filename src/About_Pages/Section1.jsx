@@ -1,20 +1,42 @@
 import React from 'react'
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
+import { SplitText } from 'gsap/all'
 
 const Section1 = () => {
+    useGSAP(()=>{
+    const heroSplit = new SplitText('.title' , {type: 'chars , words'}); // for animating the title with chars by chars , words by words
+    const paragraphSplit = new SplitText('.subtitle' , {type : 'lines'}); // for animating the subtitle line by line
+    gsap.from(heroSplit.chars , {
+            yPercent: 100,
+            duration: 1,
+            ease: 'expo.out',
+            stagger: 0.01
+        })
+    gsap.from(paragraphSplit.lines , {
+            opacity:0,
+            yPercent: 100,
+            duration:1.8,
+            ease:'expo.out',
+            stagger:0.06,
+            delay:1,
+        })
+  })
   return (
+
     <div>
         <div className='xl:container px-4 pt-20 max-md:pt-40 space-y-3 xl:ml-29'>
                 <p className='max-sm:text-sm font-medium'>KNOW ABOUT US</p>
             <div className='flex gap-10 max-sm:flex-col'>
                 <div className=''>
-                    <h2 className='font-bold max-sm:text-xl max-md:text-2xl max-lg:text-3xl lg:text-4xl'>We are a non-governmental <br /> organization</h2>
+                    <h2 className='title font-bold max-sm:text-xl max-md:text-2xl max-lg:text-3xl lg:text-4xl'>We are a non-governmental <br /> organization</h2>
                 </div>
                 <div className='text-justify xl:w-[50%]'>
-                    <h3 className='font-bold'>Aenean faucibus nibh et justo cursus id 
+                    <h3 className='subtitle font-bold'>Aenean faucibus nibh et justo cursus id 
                         rutrum lorem imperdiet. Nunc ut sem vitae 
                         risus tristique posuere.
                     </h3>
-                    <p className='text-sm'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus tempore debitis id pariatur 
+                    <p className='subtitle text-sm'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus tempore debitis id pariatur 
                         suscipit at esse, soluta porro officiis Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         reprehenderit corporis, consequuntur a quasi. Accusantium aspernatur voluptate odit ipsa consequatur
                         asperiores tenetur? Consequuntur ut numquam alias illum, nam necessitatibus quisquam, assumenda 
