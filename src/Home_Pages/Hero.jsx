@@ -12,6 +12,7 @@ const Hero = () => {
             duration:1.8,
             ease:'expo.out',
             stagger:0.06,
+            delay:1,
         })
   })
   return (
